@@ -1,0 +1,3 @@
+The trained model consisting of two files is contained in a zip file on google drive.
+1. Download the zip file from this link: https://drive.google.com/file/d/13i7JaHeQp5hCpyDAVHoGjA1pnhJWTQa_/view?usp=sharing
+2. Unzip them to the root folder where ddr_YOLO_output.py is located
