@@ -8,7 +8,9 @@ This repo implements the document components extraction (<span style="color:gold
 (1) DeepPaperComposer: A Simple Solution for Training Data Preparation for Parsing Research Papers. [Paper](https://aclanthology.org/2020.sdp-1.10.pdf)  
 (2) Document Domain Randomization for Deep Learning Document Layout Extraction. [Paper](https://arxiv.org/pdf/2105.14931.pdf)
 
-When a research paper is only available in image format (e.g., png and jpg) or pdf format, our model will help you extract the graphical (figure, table, algorithm, equation) and textual (title, abstract, caption, body text, etc.) components from it. Specifically, the trained model will scan each page image and provide the bounding boxes for each of the paper components. With these bounding boxes, downstream tasks such as figure/table extraction and text OCR can be conducted. This type of AI-based end-to-end document layout extraction is widely used in online paper databases or research tools such as SemanticScholar. Our model is excellent at extracting compoments from 2-column research papers and can be trained to extract from other styles of publications. 
+When a research paper is only available in image format (e.g., png and jpg) or pdf format, our model will help you extract the graphical (figure, table, algorithm, equation) and textual (title, abstract, caption, body text, etc.) components from it. Specifically, the trained model will scan each page image and provide the bounding boxes for each of the paper components. With these bounding boxes, downstream tasks such as figure/table extraction and text OCR can be conducted. 
+
+This type of AI-based end-to-end document layout extraction is widely used in online paper databases or research tools such as SemanticScholar. Our model is excellent at extracting compoments from 2-column research papers and can be trained to extract from other styles of publications. 
 
 ## Prerequisite
 The document extraction model is based on the tensorflow implementation of the Faster-RCNN model by Tensorpack. [Link](https://github.com/tensorpack/tensorpack/tree/master)
